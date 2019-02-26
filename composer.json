@@ -1,0 +1,10 @@
+{
+    "name": "amcgowanca/entity_utilities",
+    "description": "A collection of utilities and experimental implementations for working with Drupal 8's entity system.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "required-dev": {},
+    "require": {}
+}
