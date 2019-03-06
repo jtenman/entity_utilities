@@ -5,6 +5,11 @@ namespace Drupal\entity_utilities\Storage;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\taxonomy\TermInterface;
 
+/**
+ * Provides Drupal core's TermStorage class methods.
+ *
+ * @see \Drupal\taxonomy\TermStorage
+ */
 trait TermStorageTrait {
 
   /**

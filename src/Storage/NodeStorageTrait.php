@@ -6,6 +6,11 @@ use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\node\NodeInterface;
 
+/**
+ * Provides Drupal core's NodeStorage class methods.
+ *
+ * @see \Drupal\node\NodeStorage
+ */
 trait NodeStorageTrait {
 
   /**

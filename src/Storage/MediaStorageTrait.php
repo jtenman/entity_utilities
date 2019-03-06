@@ -4,6 +4,11 @@ namespace Drupal\entity_utilities\Storage;
 
 use Drupal\Core\Entity\EntityInterface;
 
+/**
+ * Provides Drupal core's MediaStorage class methods.
+ *
+ * @see \Drupal\media\MediaStorage
+ */
 trait MediaStorageTrait {
 
   /**

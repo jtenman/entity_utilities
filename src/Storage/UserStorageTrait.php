@@ -7,6 +7,19 @@ use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\user\UserInterface;
 
+/**
+ * Provides Drupal core's UserStorage class methods.
+ *
+ * Additionally, Drupal core does not provide support at this time for creating
+ * an anonymous user entity object through its storage class. Furthermore, this
+ * trait implements the method "getAnonymousUser()" which mimics Drupal core's
+ * User::getAnonymousUser() implementation. Developers wishing to utilize this
+ * can do so, and furthermore can apply the following patch available here:
+ * https://gist.github.com/amcgowanca/28b296dd76622835b8dcc7f546c04f93, to
+ * provide support within the User entity class.
+ *
+ * @see \Drupal\user\UserStorage
+ */
 trait UserStorageTrait {
 
   /**

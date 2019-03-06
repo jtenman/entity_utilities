@@ -2,6 +2,11 @@
 
 namespace Drupal\entity_utilities\Storage;
 
+/**
+ * Provides Drupal core's FileStorage class methods.
+ *
+ * @see \Drupal\file\FileStorage
+ */
 trait FileStorageTrait {
 
   /**
