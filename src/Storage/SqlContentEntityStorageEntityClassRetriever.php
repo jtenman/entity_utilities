@@ -27,7 +27,7 @@ trait SqlContentEntityStorageEntityClassRetriever {
    * @return string
    *   The entity class name.
    */
-  protected function getEntityClass($bundle = NULL) {
+  public function getEntityClass(?string $bundle = NULL): string {
     return $this->entityClass;
   }
 
